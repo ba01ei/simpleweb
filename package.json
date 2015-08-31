@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node_modules/.bin/iced -o js -c src; node_modules/.bin/iced server.coffee"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "iced-coffee-script": "^108.0.8",
+    "moment": "^2.10.6",
+    "request": "^2.61.0"
+  }
+}
