@@ -1,3 +1,5 @@
+React = require "react"
+
 BaseComponent = React.createClass
   getInitialState: () ->
     loaded: false
